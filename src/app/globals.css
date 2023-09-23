@@ -27,4 +27,14 @@ body {
     rgb(var(--background-start-rgb));
     font-family: 'Poppins', sans-serif;
 /* font-family: 'Roboto', sans-serif; */
+overflow-y: scroll; /* Enable vertical scrolling */
+scroll-snap-type: y mandatory; /* Enable vertical scrolling snapping */
+/* Optional: Customize scroll behavior */
+scroll-behavior: smooth;
 }
+
+.mainLeadHero {
+  background-image: url('assets/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg');
+  /* Other background properties go here */
+}
+
