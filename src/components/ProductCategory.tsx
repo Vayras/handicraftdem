@@ -131,6 +131,7 @@ function ProductCategoty() {
                         </div>
                     ))}
                 </div>
+                
             ))}
             <div className="flex justify-center items-center">
                  <button className="p-4 mt-6  text-2xl font-semibold  border-2 rounded-md hover:bg-black hover:text-white">Show More</button>

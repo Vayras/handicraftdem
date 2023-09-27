@@ -69,10 +69,10 @@ function Products() {
 
 
     return (
-        <div className="w-screen h-screen overflow-hidden bg-white text-black">
+        <div className="w-screen md:p-4 h-screen overflow-hidden bg-white text-black">
             <h1 className="text-3xl font-semibold">Our Products</h1>
             {productsRows.map((row, rowIndex) => (
-                <div key={rowIndex} className="flex justify-between gap-12 mx-[19rem] mt-[2rem] text-start">
+                <div key={rowIndex} className="flex justify-between gap-12 lg:mx-[19rem]  mt-[2rem] text-start">
                     {row.map((product, index) => (
                         <div key={index} className="h-[22rem] w-96 bg-gray-100 shadow-sm rounded-sm">
                             <div className="h-56 w-[18.3rem] bg-blue-500 relative">

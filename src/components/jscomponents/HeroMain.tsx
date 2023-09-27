@@ -4,7 +4,7 @@ import React from 'react'
 const HeroMain = () => {
     return (
        
-            <div className='mainLeadHero bg-image w-full h-[62.99563rem] bg-cover bg-center flex justify-end items-center '>
+            <div className='mainLeadHero bg-image w-screen h-[62.99563rem] bg-cover bg-center flex justify-end items-center '>
                 <div className='w-[40rem] h-[28rem] shrink-0 rounded-md bg-[#FFF3E3] mr-32  mt-5'>
                     <div className='mt-[5.81rem] ml-[2.56rem] text-start '>
                         <p className='w-[7.6rem] h-[1.5rem] text-black text-[0.975rem] font-bold  '>New Arrival</p>
