@@ -59,20 +59,35 @@ function Products() {
 
     // Use state to store the product data
     const [products, setProducts] = useState(initialProducts);
-
+    console.log(window.innerWidth, "window.innerWidth")
     // Split the products into groups of 4 for each row
     const productsRows = [];
-    for (let i = 0; i < products.length; i += 4) {
-        productsRows.push(products.slice(i, i + 4));
+    if(window.innerWidth > 966){
+        for (let i = 0; i < products.length; i += 4) {
+            productsRows.push(products.slice(i, i + 4));
+        }
+        console.log(window.innerWidth, "window.innerWidth")
+    }
+    
+    else if(window.innerWidth < 399){
+        for (let i = 0; i < products.length; i += 1) {
+            productsRows.push(products.slice(i, i + 1));
+        }
+    }
+
+    else{
+        for (let i = 0; i < products.length; i += 2) {
+            productsRows.push(products.slice(i, i + 2));
+        }
     }
 
 
 
     return (
-        <div className="w-screen md:p-4 h-screen overflow-hidden bg-white text-black">
+        <div className="w-screen md:p-4 md:h-[106em] lg:h-screen overflow-hidden bg-white text-black">
             <h1 className="text-3xl font-semibold">Our Products</h1>
             {productsRows.map((row, rowIndex) => (
-                <div key={rowIndex} className="flex justify-between gap-12 lg:mx-[19rem]  mt-[2rem] text-start">
+                <div key={rowIndex} className="flex justify-between gap-12 lg:mx-[19rem] md:mx-[8rem]  mt-[2rem] text-start">
                     {row.map((product, index) => (
                         <div key={index} className="h-[22rem] w-96 bg-gray-100 shadow-sm rounded-sm">
                             <div className="h-56 w-[18.3rem] bg-blue-500 relative">

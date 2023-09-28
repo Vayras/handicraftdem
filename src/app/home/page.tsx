@@ -9,26 +9,26 @@ import AdderSection from "@/components/jscomponents/AdderSection";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 md:gap-0">
       <div>
         <Header />
       </div>
       <div className="flex flex-col">
-      <section className="flex justify-center items-center text-center overflow-hidden">
+      <div className="flex justify-center items-center text-center ">
           <HeroMain />
-        </section>
-        <section className="flex justify-center items-center text-center overflow-hidden">
+        </div>
+        <div className="flex justify-center items-center text-center ">
           <Hero />
-        </section>
-        <section className="flex justify-center items-center text-center overflow-hidden">
+        </div>
+        <div className="flex justify-center items-center text-center ">
           <Products />
-        </section>
-        <section className="flex justify-center items-center text-center overflow-hidden">
+        </div>
+        <div className="flex justify-center items-center text-center overflow-hidden">
           <AdderSection />
-        </section>
-        <section className="flex justify-center items-center text-center overflow-hidden">
+        </div>
+        <div className="flex justify-center items-center text-center overflow-hidden">
           <Footer />
-        </section>
+        </div>
       </div>
     </div>
   );

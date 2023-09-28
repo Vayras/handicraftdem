@@ -6,11 +6,11 @@ import {TbDeviceLandlinePhone} from 'react-icons/tb'
 const Footer = () => {
   return (
     <div className='w-full bg-black'>
-        <div className='w-[90rem] mx-auto mt-[3rem] flex justify-between bg-black'>
+        <div className='w-full mx-auto mt-[3rem] flex justify-between bg-black'>
             <div>
                 <div className='flex bg-black '>
                     <img src='../logo-no-background.svg' alt='' className='h-[7rem]'></img>
-                    <p className='w-[34rem] text-[3rem] font-bold   mt-2 '>Arihant Art Exports</p>
+                    <p className='w-[34rem] md:w-[24rem] md:ml-[0.5rem] lg:text-[3rem] md:text-[2rem] font-bold   mt-2 '>Arihant Art Exports</p>
                 </div>
                 <div className='flex gap-3 justify-start text-[1.125rem] font-semibold text-start ml-[0.95rem]'>
                     <div className='mt-[1.5rem] ml-8'>
@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
             </div> {/*logo and*/} 
             <div className=' justify-start text-[1.125rem] font-semibold text-start ml-[0.95rem]'>
-                <p className='w-[34rem]  text-white text-[3.25rem] font-bold mb-[3.2rem] '>Connect With Us....</p>
+                <p className='w-[34rem]  text-white lg:text-[3rem] md:text-[2rem] font-bold mb-[3.2rem] '>Connect With Us....</p>
                 <p className='w-[34rem]  text-[#9f9f9f] text-[1.3rem] font-semibold'>Mail us on this link or call us for more queries</p>
                 <div className='flex items-center gap-4 font-sans font-semibold text-[1.125rem]'>
                     <FiMail className=' flex p-1 text-[2rem] rounded-full bg-transparent bg-slate-500'/>
