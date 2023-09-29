@@ -16,9 +16,8 @@ const Footer = () => {
             <h2 className='lg:text-3xl'>J-56 ,1st Phase, Sangaria Industries Area, Jodhpur(Raj.),State Code:08</h2>
           </div>
         </span>
-        <span className='flex lg:mr-[26.5rem]  md:mr-[10rem] mr-[8rem] md:mt-[3rem] mt-[3rem] items-center justify-center'>
+        <span className='flex lg:mr-[26.5rem]  md:mr-[20rem] mr-[8rem] md:mt-[3rem] mt-[3rem] items-center justify-center'>
           <div>
-            
           </div>
           <div className='flex flex-col text-left text-white font-semibold'>
             <h1 className='lg:text-4xl text-3xl'>Contact Us</h1>

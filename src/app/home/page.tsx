@@ -10,9 +10,9 @@ import AdderSection from "@/components/jscomponents/AdderSection";
 function Home() {
   return (
     <div className="flex flex-col gap-10 md:gap-0">
-      <div>
+      {/* <div>
         <Header />
-      </div>
+      </div> */}
       <div className="flex flex-col">
       <div className="flex justify-center items-center text-center ">
           <HeroMain />
