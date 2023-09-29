@@ -35,6 +35,17 @@ scroll-behavior: smooth;
 
 .mainLeadHero {
   background-image: url('assets/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg');
-  /* Other background properties go here */
-}
+  background-size: cover; /* Default: cover for all screen sizes */
 
+  /* Other background properties go here */
+
+  /* Media query for medium screens */
+  @media screen and (max-width: 768px) {
+    background-size: contain; /* Change to contain for medium screens */
+  }
+
+  /* Media query for small screens */
+  @media screen and (max-width: 480px) {
+    background-size: cover; /* Change to contain for small screens */
+  }
+}

@@ -4,8 +4,8 @@ import React from 'react'
 const HeroMain = () => {
     return (
        
-            <div className='mainLeadHero bg-image w-screen h-[62.99563rem] bg-cover bg-center flex justify-end items-center '>
-                <div className='w-[40rem] h-[28rem] shrink-0 rounded-md bg-[#FFF3E3] mr-32  mt-5'>
+            <div className='mainLeadHero w-screen md:h-[62.99563rem] sm:h-96  md:flex md:justify-end sm:flex  sm:items-center '>
+                <div className='w-[40rem] h-[28rem]  rounded-md bg-[#FFF3E3] mr-32  mt-5'>
                     <div className='mt-[5.81rem] ml-[2.56rem] text-start '>
                         <p className='w-[7.6rem] h-[1.5rem] text-black text-[0.975rem] font-bold  '>New Arrival</p>
                         <p className='w-[34rem] h-[7.93rem]  text-black text-[3.25rem] font-bold  leading-[4.0625rem] mt-2 '>Discover Our New Collection</p>
