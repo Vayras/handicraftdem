@@ -4,8 +4,8 @@ import { HiOutlineCurrencyRupee } from 'react-icons/hi'
 
 const AdderSection = () => {
   return (
-      <div className='h-72 w-screen lg:flex md:flex md:flex-row sm:flex sm:flex-col lg:flex-row justify-center items-center bg-[#FFF3E3]'>
-        <span className='flex lg:ml-[2rem] mt-[3rem] items-center justify-center'>
+      <div className='h-72  w-screen lg:flex md:flex md:flex-row sm:flex sm:flex-col lg:flex-row justify-between items-center bg-[#FFF3E3]'>
+        <span className='flex lg:ml-[15rem] md:ml-[8rem] mt-[3rem] items-center justify-center'>
           <div>
             <HiOutlineTrophy className="text-black w-[4.75rem] h-[4.75rem] mx-2 sm:mb-6 md:mb-0" />
           </div>
@@ -14,7 +14,7 @@ const AdderSection = () => {
             <h2 className='lg:text-3xl'>Crafted from top materials</h2>
           </div>
         </span>
-        <span className='flex lg:ml-[15.5rem] md:mt-[3rem] sm:mt-[3rem] items-center justify-center'>
+        <span className='flex lg:mr-[18.75rem] md:mr-[9rem] md:mt-[3rem] sm:mt-[3rem] items-center justify-center'>
           <div>
             <HiOutlineCurrencyRupee className="text-black w-[4.75rem] h-[4.75rem] mx-2" />
           </div>

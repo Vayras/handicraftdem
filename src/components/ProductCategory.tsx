@@ -116,14 +116,14 @@ function ProductCategoty() {
 
 
     return (
-        <div className="w-screen  h-full  bg-white text-black ">
-            {/* <h1 className=" text-3xl font-semibold w-full "></h1> */}
+        <div className="w-screen md:p-4 md:h-[106em] lg:h-screen overflow-hidden bg-white text-black">
+            <h1 className="text-3xl font-semibold">Our Products</h1>
             {productsRows.map((row, rowIndex) => (
-                <div key={rowIndex} className="flex justify-between gap-12 mx-[19rem] mt-[2rem] text-start">
+                <div key={rowIndex} className="md:flex md:justify-between gap-12 lg:mx-[19rem] md:mx-[8rem]  mt-[2rem] text-start">
                     {row.map((product, index) => (
-                        <div key={index} className="h-[22rem] w-96 bg-gray-100 shadow-sm rounded-sm">
-                            <div className="h-56 w-[18.3rem] bg-blue-500 relative">
-                                <img className="object-cover w-full h-full" src={product.imageUrl} alt="Image not found" />
+                        <div key={index} className="h-[23rem] w-96 p-4 bg-gray-100 shadow-sm rounded-sm">
+                            <div className="h-56 md:w-[18.3rem]  bg-blue-500 relative">
+                                <img className="object-cover w-full h-full" src={product.imageUrl} alt="Image not found"/>
                             </div>
                             <h1 className="mx-4 mt-5 text-2xl font-semibold">{product.title}</h1>
                             <h3 className="mx-4 mt-2 text-gray-500">{product.description}</h3>
@@ -131,13 +131,13 @@ function ProductCategoty() {
                         </div>
                     ))}
                 </div>
-                
             ))}
             <div className="flex justify-center items-center">
-                 <button className="p-4 mt-6  text-2xl font-semibold  border-2 rounded-md hover:bg-black hover:text-white">Show More</button>
+                 <button className="p-4 mt-6  text-2xl font-semibold border border-2 rounded-md hover:bg-black hover:text-white">Show More</button>
             </div>
         </div>
     );
 }
+
 
 export default ProductCategoty;

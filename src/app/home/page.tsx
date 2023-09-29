@@ -23,7 +23,7 @@ function Home() {
         <div className="flex justify-center items-center text-center ">
           <Products />
         </div>
-        <div className="flex justify-center items-center text-center overflow-hidden">
+        <div className="flex justify-center items-center text-center overflow-hidden mt-2">
           <AdderSection />
         </div>
         <div className="flex justify-center items-center text-center overflow-hidden">
